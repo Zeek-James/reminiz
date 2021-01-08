@@ -1,21 +1,15 @@
 // import { AppBar, Container, Grid, Grow, Typography } from "@material-ui/core";
 
 import "./App.css";
-import { Form } from "./component/Form/Form";
 import { Navbar } from "./component/Nav/Navbar";
-import { Posts } from "./component/Posts/Posts";
+import { Reminiz } from "./component/reminiz/Reminiz";
 
 function App() {
   return (
     <div>
       <Navbar />
       <div>
-        <div>
-          <Posts />
-        </div>
-        <div>
-          <Form />
-        </div>
+        <Reminiz />
       </div>
     </div>
     // <Container maxidth='lg'>
